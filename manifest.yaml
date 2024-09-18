@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: sales_demo2
+  - name: sales-demo2
     memory: 200M
     disk-quota: 256M
     path: ./
