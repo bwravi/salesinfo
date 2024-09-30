@@ -1,0 +1,15 @@
+ID: demo.sample_demo4
+_schema-version: 3.3.0
+version: 0.0.1
+
+modules:
+  - name: sales_demo4
+    type: application
+    path: ./
+    parameters:
+      buildpack: nodejs_buildpack
+      memory: 200M
+      disk-quota: 256M
+      tasks:
+        - name: task_npm_install
+          command: npm install
