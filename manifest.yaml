@@ -1,8 +1,0 @@
----
-applications:
-  - name: sales-demo2
-    memory: 200M
-    disk-quota: 256M
-    path: ./
-    buildpacks:
-      - nodejs_buildpack
