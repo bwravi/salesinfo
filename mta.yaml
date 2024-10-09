@@ -8,5 +8,5 @@ modules:
     path: ./
     parameters:
       buildpack: nodejs_buildpack
-      memory: 205M
+      memory: 300M
       disk-quota: 256M
