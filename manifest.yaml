@@ -1,7 +1,7 @@
 ---
 applications:
   - name: sales-demo2
-    memory: 250M
+    memory: 300M
     disk-quota: 256M
     path: ./
     buildpacks:
